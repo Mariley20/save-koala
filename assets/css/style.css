@@ -7,6 +7,9 @@ army green: 41521F;
 	padding: 0 auto;
 	box-sizing: border-box;
 }
+header{
+	z-index: 2309;
+}
 li a, div a{
 	color: #A89F68;
 	text-decoration-line: none;
@@ -29,9 +32,22 @@ li a, div a{
 .parrafo-home{
 	margin-bottom: 50%;
 }
+/*section informacion*/
+#informacion{
+	padding-top: 20px;
+}
 /*section help*/
 #help{
 	background-color: #A89F68;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+#help img {
+	padding: 10px;
+	background-color: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /*section  help2*/
@@ -47,4 +63,8 @@ li a, div a{
 /*section help 3*/
 #help3{
 	text-align: center;
+}
+/*section donate*/
+#donate{
+	background-color: #A89F68;
 }
