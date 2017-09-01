@@ -1,0 +1,50 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+}
+li a, div a{
+	color: #A89F68;
+	text-decoration-line: none;
+}
+#home{
+	background: url('../img/portada.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
+	
+}
+.title-home, .parrafo-home{
+	color: #fff;
+}
+.title-home{
+	margin-top: 25%;
+}
+.parrafo-home{
+	margin-bottom: 50%;
+}
+/*section help*/
+#help{
+	background-color: #A89F68;
+}
+
+/*section  help2*/
+#help2{
+	background:url('../img/all.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
+}
+
+/*section help 3*/
+#help3{
+	text-align: center;
+}
