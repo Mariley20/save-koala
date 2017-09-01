@@ -2,69 +2,100 @@
 wood brown: A89F68;
 army green: 41521F;
 */
-*{
-	margin: 0 auto;
-	padding: 0 auto;
-	box-sizing: border-box;
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
 }
-header{
-	z-index: 2309;
-}
-li a, div a{
-	color: #A89F68;
-	text-decoration-line: none;
-}
-#home{
-	background: url('../img/portada.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	max-width: 100%;
-	height: auto;
-	
-}
-.title-home, .parrafo-home{
+.blanco{
 	color: #fff;
 }
-.title-home{
-	margin-top: 25%;
+.brown{
+	color: #A89F68;
 }
-.parrafo-home{
-	margin-bottom: 50%;
+header {
+    z-index: 2309;
+}
+li a,
+div a {
+    color: #A89F68;
+    text-decoration-line: none;
+}
+#home {
+    background: url('../img/portada.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+.title-home,
+.parrafo-home {
+    color: #fff;
+}
+.title-home {
+    margin-top: 25%;
+}
+.parrafo-home {
+    margin-bottom: 50%;
 }
 /*section informacion*/
-#informacion{
-	padding-top: 20px;
+#informacion {
+    padding-top: 20px;
+}
+
+#informacion img {}
+
+.parrafo-informacion {
+    padding: 6% 4px;
 }
 /*section help*/
-#help{
-	background-color: #A89F68;
-	padding-top: 40px;
-	padding-bottom: 20px;
+#help {
+    background-color: #A89F68;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 #help img {
-	padding: 10px;
-	background-color: #FFF;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    padding: 10px;
+    background-color: #FFF;
+    margin: 6% auto;
 }
-
 /*section  help2*/
-#help2{
-	background:url('../img/all.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	max-width: 100%;
-	height: auto;
+#help2 {
+    background: url('../img/all.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
 }
-
+#help2 .text {
+    padding-top: 5%;
+    padding-bottom: 30%;
+    color: #fff;
+}
 /*section help 3*/
-#help3{
-	text-align: center;
+
+#help3,
+#help2 {
+    text-align: center;
 }
 /*section donate*/
-#donate{
-	background-color: #A89F68;
+#donate {
+    background-color: #A89F68;
+    text-align: center;
+    padding: 5% 0px;
+}
+
+
+/*section footer*/
+
+footer {
+    padding: 10px 10px;
+    background: #41521F;
+}
+
+.link-footer {
+    padding: 5% 3px;
 }
